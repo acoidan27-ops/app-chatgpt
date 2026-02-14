@@ -3,84 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Atelier Nova | Moda que habla de ti</title>
+    <title>Atelier Sora | Editorial Minimal</title>
+    <meta
+      name="description"
+      content="Atelier Sora: landing editorial minimal de moda con colección cápsula, beneficios y testimonios."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prata&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
+    <div class="announcement">Envío 24h · Devoluciones gratis · Acceso anticipado por 48h</div>
+
+    <header class="hero wrapper">
       <nav class="nav">
-        <a class="logo" href="#">Atelier Nova</a>
+        <a class="logo" href="#">Atelier Sora</a>
         <div class="nav-links">
           <a href="#coleccion">Colección</a>
-          <a href="#tendencias">Tendencias</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#testimonios">Testimonios</a>
           <a href="#newsletter">Newsletter</a>
         </div>
       </nav>
 
-      <div class="hero-content">
-        <p class="tag">Nueva temporada 2026</p>
-        <h1>Moda premium para quienes marcan su propio estilo</h1>
-        <p>
-          Diseños minimalistas, texturas de lujo y siluetas contemporáneas para elevar cada look.
-        </p>
-        <div class="actions">
-          <a class="btn btn-primary" href="#coleccion">Descubrir colección</a>
-          <a class="btn btn-ghost" href="#newsletter">Unirme al club</a>
-        </div>
-      </div>
+      <section class="hero-grid">
+        <article>
+          <p class="eyebrow">Drop SS26 · Edición limitada</p>
+          <h1>Menos ruido, más estilo.</h1>
+          <p class="lead">
+            Moda premium de líneas limpias para construir looks versátiles que siempre funcionan.
+          </p>
+          <p class="urgency"><strong>Últimas 48h:</strong> envío express sin coste en la nueva colección.</p>
+          <div class="actions">
+            <a class="btn btn-solid" href="#coleccion">Descubrir colección</a>
+            <a class="btn btn-ghost" href="#newsletter">Unirme al club</a>
+          </div>
+        </article>
+
+        <figure class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1200&q=80"
+            alt="Modelo con look de moda editorial minimalista"
+            loading="eager"
+          />
+        </figure>
+      </section>
     </header>
 
-    <main>
+    <main class="wrapper">
       <section id="coleccion" class="section">
-        <div class="section-head">
-          <p class="eyebrow">Colección cápsula</p>
-          <h2>Piezas esenciales que combinan con todo</h2>
-        </div>
-
+        <p class="eyebrow">Colección cápsula</p>
+        <h2>Esenciales para un armario inteligente</h2>
         <div class="cards">
           <article class="card">
-            <h3>Urban Tailoring</h3>
-            <p>Blazers estructurados, cortes limpios y tonos neutros para un look impecable.</p>
+            <h3>Pure Tailoring</h3>
+            <p>Blazers rectos y pantalones fluidos para combinar en segundos.</p>
           </article>
           <article class="card">
-            <h3>Soft Glam</h3>
-            <p>Vestidos fluidos con acabados satinados y detalles delicados para noches especiales.</p>
+            <h3>Soft Evening</h3>
+            <p>Vestidos satinados y cortes pulidos para noches especiales.</p>
           </article>
           <article class="card">
-            <h3>Weekend Edit</h3>
-            <p>Prendas cómodas con actitud: denim premium, tejidos ligeros y capas versátiles.</p>
+            <h3>Daily Studio</h3>
+            <p>Básicos premium y denim limpio para looks de todos los días.</p>
           </article>
         </div>
       </section>
 
-      <section id="tendencias" class="section highlight">
-        <div>
-          <p class="eyebrow">Tendencias destacadas</p>
-          <h2>Menos ruido, más personalidad</h2>
-          <p>
-            Apostamos por el lujo silencioso: prendas atemporales, confección responsable y una paleta sofisticada.
-          </p>
+      <section id="beneficios" class="section section-muted">
+        <p class="eyebrow">Beneficios</p>
+        <h2>Compra fácil y sin fricción</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Envío 24h</h3>
+            <p>Recibe tu pedido al día siguiente en pedidos nacionales.</p>
+          </article>
+          <article class="card">
+            <h3>Devoluciones gratis</h3>
+            <p>30 días para cambios o devoluciones sin coste.</p>
+          </article>
+          <article class="card">
+            <h3>Asesoría de estilo</h3>
+            <p>Te recomendamos combinaciones por chat en minutos.</p>
+          </article>
         </div>
-        <ul>
-          <li>✔ Monocromía elegante</li>
-          <li>✔ Texturas naturales</li>
-          <li>✔ Accesorios con carácter</li>
-        </ul>
+      </section>
+
+      <section id="testimonios" class="section">
+        <p class="eyebrow">Testimonios</p>
+        <h2>Lo que dicen nuestras clientas</h2>
+        <div class="cards">
+          <blockquote class="card quote">
+            “El tejido se siente premium y me llegó en menos de 24h.”
+            <cite>— Martina, Madrid</cite>
+          </blockquote>
+          <blockquote class="card quote">
+            “El cambio de talla fue gratis y súper rápido.”
+            <cite>— Elena, Valencia</cite>
+          </blockquote>
+          <blockquote class="card quote">
+            “Por fin una marca minimalista con calidad real.”
+            <cite>— Carla, Barcelona</cite>
+          </blockquote>
+        </div>
       </section>
 
       <section id="newsletter" class="section newsletter">
-        <p class="eyebrow">Acceso exclusivo</p>
-        <h2>Recibe lanzamientos y descuentos privados</h2>
+        <p class="eyebrow">Newsletter exclusiva</p>
+        <h2>Acceso temprano a próximos drops</h2>
         <form>
-          <label for="email" class="sr-only">Correo electrónico</label>
+          <label class="sr-only" for="email">Correo electrónico</label>
           <input id="email" type="email" placeholder="tu@email.com" required />
-          <button type="submit">Quiero entrar</button>
+          <button type="submit">Quiero acceso</button>
         </form>
       </section>
     </main>
