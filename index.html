@@ -3,130 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maison Lune — Editorial de Moda</title>
-    <meta
-      name="description"
-      content="Maison Lune: moda editorial con diseño atemporal, envío 24h, devoluciones gratis y acceso a drops exclusivos."
-    />
+    <title>Atelier Nova | Moda que habla de ti</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <p>Envío 24h + Devoluciones gratis en todos los pedidos.</p>
+    <header class="hero">
+      <nav class="nav">
+        <a class="logo" href="#">Atelier Nova</a>
+        <div class="nav-links">
+          <a href="#coleccion">Colección</a>
+          <a href="#tendencias">Tendencias</a>
+          <a href="#newsletter">Newsletter</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="tag">Nueva temporada 2026</p>
+        <h1>Moda premium para quienes marcan su propio estilo</h1>
+        <p>
+          Diseños minimalistas, texturas de lujo y siluetas contemporáneas para elevar cada look.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#coleccion">Descubrir colección</a>
+          <a class="btn btn-ghost" href="#newsletter">Unirme al club</a>
+        </div>
+      </div>
     </header>
 
-    <main class="page">
-      <section class="hero">
-        <nav class="nav">
-          <a class="brand" href="#">Maison Lune</a>
-          <div class="links">
-            <a href="#coleccion">Colección</a>
-            <a href="#beneficios">Beneficios</a>
-            <a href="#testimonios">Testimonios</a>
-            <a href="#newsletter">Newsletter</a>
-          </div>
-        </nav>
-
-        <div class="hero-layout">
-          <article class="hero-copy">
-            <p class="kicker">Drop edición limitada · Primavera 2026</p>
-            <h1>Moda limpia para destacar sin esfuerzo.</h1>
-            <p class="lead">
-              Siluetas elegantes, tejidos premium y combinaciones atemporales para elevar tu armario.
-            </p>
-            <p class="urgency"><strong>Últimas 48h:</strong> acceso anticipado + envío express sin coste.</p>
-            <div class="cta-row">
-              <a class="btn btn-solid" href="#coleccion">Ver nueva colección</a>
-              <a class="btn btn-outline" href="#newsletter">Unirme al club</a>
-            </div>
-          </article>
-
-          <figure class="hero-media">
-            <img
-              src="https://images.unsplash.com/photo-1464863979621-258859e62245?auto=format&fit=crop&w=1200&q=80"
-              alt="Modelo con look editorial de moda"
-              loading="eager"
-            />
-          </figure>
-        </div>
-      </section>
-
+    <main>
       <section id="coleccion" class="section">
         <div class="section-head">
-          <p class="label">Colección cápsula</p>
-          <h2>Piezas clave para un armario editorial</h2>
+          <p class="eyebrow">Colección cápsula</p>
+          <h2>Piezas esenciales que combinan con todo</h2>
         </div>
-        <div class="grid-3">
+
+        <div class="cards">
           <article class="card">
-            <h3>Tailoring Mono</h3>
-            <p>Blazers rectos, pantalones fluidos y capas ligeras en tonos piedra.</p>
+            <h3>Urban Tailoring</h3>
+            <p>Blazers estructurados, cortes limpios y tonos neutros para un look impecable.</p>
           </article>
           <article class="card">
-            <h3>Evening Soft</h3>
-            <p>Vestidos satinados y cortes depurados para eventos y cenas especiales.</p>
+            <h3>Soft Glam</h3>
+            <p>Vestidos fluidos con acabados satinados y detalles delicados para noches especiales.</p>
           </article>
           <article class="card">
-            <h3>Weekend Studio</h3>
-            <p>Denim premium, básicos perfectos y texturas suaves para diario.</p>
+            <h3>Weekend Edit</h3>
+            <p>Prendas cómodas con actitud: denim premium, tejidos ligeros y capas versátiles.</p>
           </article>
         </div>
       </section>
 
-      <section id="beneficios" class="section section-alt">
-        <div class="section-head">
-          <p class="label">Beneficios</p>
-          <h2>Compra segura y sin fricción</h2>
+      <section id="tendencias" class="section highlight">
+        <div>
+          <p class="eyebrow">Tendencias destacadas</p>
+          <h2>Menos ruido, más personalidad</h2>
+          <p>
+            Apostamos por el lujo silencioso: prendas atemporales, confección responsable y una paleta sofisticada.
+          </p>
         </div>
-        <div class="grid-3">
-          <article class="card">
-            <h3>Envío 24h</h3>
-            <p>Recibe tu pedido al día siguiente en península.</p>
-          </article>
-          <article class="card">
-            <h3>Devoluciones gratis</h3>
-            <p>Cambios y devoluciones sin coste durante 30 días.</p>
-          </article>
-          <article class="card">
-            <h3>Asesoría de estilo</h3>
-            <p>Te ayudamos a combinar prendas por chat en minutos.</p>
-          </article>
-        </div>
+        <ul>
+          <li>✔ Monocromía elegante</li>
+          <li>✔ Texturas naturales</li>
+          <li>✔ Accesorios con carácter</li>
+        </ul>
       </section>
 
-      <section id="testimonios" class="section">
-        <div class="section-head">
-          <p class="label">Testimonios</p>
-          <h2>Clientas que ya viven Maison Lune</h2>
-        </div>
-        <div class="grid-3">
-          <blockquote class="card quote">
-            “La calidad del tejido y el corte son otro nivel. Me llegó en 24h.”
-            <cite>— Claudia, Madrid</cite>
-          </blockquote>
-          <blockquote class="card quote">
-            “Tuve que cambiar talla y el proceso fue impecable y gratis.”
-            <cite>— Irene, Valencia</cite>
-          </blockquote>
-          <blockquote class="card quote">
-            “Minimalista, elegante y fácil de combinar en cualquier ocasión.”
-            <cite>— Paula, Barcelona</cite>
-          </blockquote>
-        </div>
-      </section>
-
-      <section id="newsletter" class="section section-newsletter">
-        <p class="label">Newsletter exclusiva</p>
-        <h2>Accede antes a los próximos drops</h2>
+      <section id="newsletter" class="section newsletter">
+        <p class="eyebrow">Acceso exclusivo</p>
+        <h2>Recibe lanzamientos y descuentos privados</h2>
         <form>
-          <label class="sr-only" for="email">Correo electrónico</label>
+          <label for="email" class="sr-only">Correo electrónico</label>
           <input id="email" type="email" placeholder="tu@email.com" required />
-          <button type="submit">Quiero acceso</button>
+          <button type="submit">Quiero entrar</button>
         </form>
       </section>
     </main>
