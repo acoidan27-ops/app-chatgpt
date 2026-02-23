@@ -3,124 +3,290 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nova Studio | Editorial Minimal</title>
-    <meta
-      name="description"
-      content="Atelier Sora: landing editorial minimal de moda con colección cápsula, beneficios y testimonios."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prata&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <title>UnitedHealth Group (UNH) | Valoración Integral</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: '#0B1F3A',
+              slate: '#1E293B',
+              accent: '#16A34A',
+              gold: '#C9A227'
+            }
+          }
+        }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
-  <body>
-    <div class="announcement">Envío 24h · Devoluciones gratis · Acceso anticipado por 48h</div>
-
-    <header class="hero wrapper">
-      <nav class="nav">
-       <a class="logo" href="#">Nova Studio</a>
-        <div class="nav-links">
-          <a href="#coleccion">Colección</a>
-          <a href="#beneficios">Beneficios</a>
-          <a href="#testimonios">Testimonios</a>
-          <a href="#newsletter">Newsletter</a>
-        </div>
-      </nav>
-
-      <section class="hero-grid">
-        <article>
-          <p class="eyebrow">Drop SS26 · Edición limitada</p>
-          <h1>Menos ruido, más estilo.</h1>
-          <p class="lead">
-            Moda premium de líneas limpias para construir looks versátiles que siempre funcionan.
-          </p>
-          <p class="urgency"><strong>Últimas 48h:</strong> envío express sin coste en la nueva colección.</p>
-          <div class="actions">
-            <a class="btn btn-solid" href="#coleccion">Descubrir colección</a>
-            <a class="btn btn-ghost" href="#newsletter">Unirme al club</a>
+  <body class="bg-slate-100 text-slate-800">
+    <div class="min-h-screen">
+      <header class="bg-gradient-to-r from-navy via-slate-900 to-navy text-white shadow-xl">
+        <div class="max-w-7xl mx-auto px-6 py-10">
+          <p class="uppercase tracking-[0.25em] text-xs text-slate-300">Informe de Valoración Institucional</p>
+          <div class="mt-4 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
+            <div>
+              <h1 class="text-3xl lg:text-5xl font-bold">UnitedHealth Group (NYSE: UNH)</h1>
+              <p class="mt-2 text-slate-300">Sector: Salud · Servicios sanitarios y gestión de beneficios</p>
+            </div>
+            <div class="bg-white/10 rounded-xl px-5 py-3 border border-white/20">
+              <p class="text-sm text-slate-200">Fecha del análisis</p>
+              <p class="font-semibold">2026-02-23</p>
+            </div>
           </div>
-        </article>
-
-        <figure class="hero-image">
-          <img
-            src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1200&q=80"
-            alt="Modelo con look de moda editorial minimalista"
-            loading="eager"
-          />
-        </figure>
-      </section>
-    </header>
-
-    <main class="wrapper">
-      <section id="coleccion" class="section">
-        <p class="eyebrow">Colección cápsula</p>
-        <h2>Esenciales para un armario inteligente</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Pure Tailoring</h3>
-            <p>Blazers rectos y pantalones fluidos para combinar en segundos.</p>
-          </article>
-          <article class="card">
-            <h3>Soft Evening</h3>
-            <p>Vestidos satinados y cortes pulidos para noches especiales.</p>
-          </article>
-          <article class="card">
-            <h3>Daily Studio</h3>
-            <p>Básicos premium y denim limpio para looks de todos los días.</p>
-          </article>
         </div>
-      </section>
+      </header>
 
-      <section id="beneficios" class="section section-muted">
-        <p class="eyebrow">Beneficios</p>
-        <h2>Compra fácil y sin fricción</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Envío 24h</h3>
-            <p>Recibe tu pedido al día siguiente en pedidos nacionales.</p>
-          </article>
-          <article class="card">
-            <h3>Devoluciones gratis</h3>
-            <p>30 días para cambios o devoluciones sin coste.</p>
-          </article>
-          <article class="card">
-            <h3>Asesoría de estilo</h3>
-            <p>Te recomendamos combinaciones por chat en minutos.</p>
-          </article>
-        </div>
-      </section>
+      <main class="max-w-7xl mx-auto px-6 py-8 space-y-8">
+        <section class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
+          <h2 class="text-2xl font-bold text-navy">Resumen Ejecutivo (Investment Thesis)</h2>
+          <ul class="mt-4 list-disc list-inside space-y-2 text-slate-700">
+            <li>Escala y resiliencia operativa respaldadas por diversificación de líneas de negocio, con trayectoria sostenida de expansión en ingresos y EBITDA.</li>
+            <li>La valoración por DCF converge con múltiplos de comparables, sugiriendo potencial de revalorización moderado bajo supuestos conservadores de crecimiento y margen.</li>
+            <li>Perfil financiero sólido (alto flujo de caja operativo y capacidad de desapalancamiento), mitigando el riesgo de ejecución y de volatilidad de mercado.</li>
+          </ul>
+        </section>
 
-      <section id="testimonios" class="section">
-        <p class="eyebrow">Testimonios</p>
-        <h2>Lo que dicen nuestras clientas</h2>
-        <div class="cards">
-          <blockquote class="card quote">
-            “El tejido se siente premium y me llegó en menos de 24h.”
-            <cite>— Martina, Madrid</cite>
-          </blockquote>
-          <blockquote class="card quote">
-            “El cambio de talla fue gratis y súper rápido.”
-            <cite>— Elena, Valencia</cite>
-          </blockquote>
-          <blockquote class="card quote">
-            “Por fin una marca minimalista con calidad real.”
-            <cite>— Carla, Barcelona</cite>
-          </blockquote>
-        </div>
-      </section>
+        <section class="bg-white rounded-2xl shadow-md p-6 border border-slate-200 overflow-x-auto">
+          <h2 class="text-2xl font-bold text-navy">Análisis Financiero Histórico y Proyectado (USD mm)</h2>
+          <p class="mt-2 text-sm text-slate-500">*Datos históricos y de consenso estimados a partir de capturas proporcionadas; supuestos marcados con asterisco.</p>
+          <table class="mt-4 min-w-full text-sm">
+            <thead>
+              <tr class="bg-slate-100 text-slate-700">
+                <th class="text-left p-3">Métrica</th>
+                <th class="p-3">2024A</th>
+                <th class="p-3">2025E</th>
+                <th class="p-3">2026E*</th>
+                <th class="p-3">2027E*</th>
+                <th class="p-3">2028E*</th>
+                <th class="p-3">2029E*</th>
+                <th class="p-3">2030E*</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b"><td class="p-3 font-medium">Ingresos</td><td class="p-3 text-center">400,278</td><td class="p-3 text-center">447,567</td><td class="p-3 text-center">483,377</td><td class="p-3 text-center">522,881</td><td class="p-3 text-center">561,776</td><td class="p-3 text-center">581,438</td><td class="p-3 text-center">593,067</td></tr>
+              <tr class="border-b bg-slate-50"><td class="p-3 font-medium">EBITDA*</td><td class="p-3 text-center">37,627</td><td class="p-3 text-center">42,519</td><td class="p-3 text-center">46,364</td><td class="p-3 text-center">50,720</td><td class="p-3 text-center">54,676</td><td class="p-3 text-center">57,562</td><td class="p-3 text-center">59,307</td></tr>
+              <tr class="border-b"><td class="p-3 font-medium">Margen EBITDA*</td><td class="p-3 text-center">9.4%</td><td class="p-3 text-center">9.5%</td><td class="p-3 text-center">9.6%</td><td class="p-3 text-center">9.7%</td><td class="p-3 text-center">9.7%</td><td class="p-3 text-center">9.9%</td><td class="p-3 text-center">10.0%</td></tr>
+              <tr class="border-b bg-slate-50"><td class="p-3 font-medium">Capex*</td><td class="p-3 text-center">3,499</td><td class="p-3 text-center">3,622</td><td class="p-3 text-center">3,950</td><td class="p-3 text-center">4,180</td><td class="p-3 text-center">4,440</td><td class="p-3 text-center">4,610</td><td class="p-3 text-center">4,750</td></tr>
+              <tr><td class="p-3 font-medium">FCFF*</td><td class="p-3 text-center">20,705</td><td class="p-3 text-center">16,075</td><td class="p-3 text-center">19,101</td><td class="p-3 text-center">20,195</td><td class="p-3 text-center">21,224</td><td class="p-3 text-center">22,123</td><td class="p-3 text-center">22,788</td></tr>
+            </tbody>
+          </table>
+        </section>
 
-      <section id="newsletter" class="section newsletter">
-        <p class="eyebrow">Newsletter exclusiva</p>
-        <h2>Acceso temprano a próximos drops</h2>
-        <form>
-          <label class="sr-only" for="email">Correo electrónico</label>
-          <input id="email" type="email" placeholder="tu@email.com" required />
-          <button type="submit">Quiero acceso</button>
-        </form>
-      </section>
-    </main>
+        <section class="grid lg:grid-cols-2 gap-6">
+          <div class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
+            <h2 class="text-2xl font-bold text-navy">Valoración DCF y Sensibilidad</h2>
+            <div class="mt-4 grid grid-cols-2 gap-3 text-sm">
+              <div class="bg-slate-50 p-3 rounded-lg"><p class="text-slate-500">WACC*</p><p class="text-xl font-bold text-navy">8.2%</p></div>
+              <div class="bg-slate-50 p-3 rounded-lg"><p class="text-slate-500">g terminal*</p><p class="text-xl font-bold text-navy">2.5%</p></div>
+              <div class="bg-slate-50 p-3 rounded-lg"><p class="text-slate-500">PV FCFF (26E-30E)</p><p class="text-xl font-bold text-navy">82,651</p></div>
+              <div class="bg-slate-50 p-3 rounded-lg"><p class="text-slate-500">PV Valor Terminal</p><p class="text-xl font-bold text-navy">284,826</p></div>
+            </div>
+            <div class="mt-4 p-4 bg-navy text-white rounded-xl">
+              <p class="text-sm text-slate-300">Enterprise Value DCF</p>
+              <p class="text-3xl font-extrabold">367,477 USD mm</p>
+            </div>
+            <div class="mt-4 overflow-x-auto">
+              <table class="min-w-full text-xs text-center border border-slate-200">
+                <thead><tr class="bg-slate-100"><th class="p-2">WACC \ g</th><th class="p-2">2.0%</th><th class="p-2">2.5%</th><th class="p-2">3.0%</th></tr></thead>
+                <tbody>
+                  <tr><td class="p-2 font-semibold">7.7%</td><td class="p-2">409,214</td><td class="p-2">434,802</td><td class="p-2">464,103</td></tr>
+                  <tr class="bg-green-50"><td class="p-2 font-semibold">8.2%</td><td class="p-2">347,693</td><td class="p-2 font-bold text-accent">367,477</td><td class="p-2">389,736</td></tr>
+                  <tr><td class="p-2 font-semibold">8.7%</td><td class="p-2">300,811</td><td class="p-2">316,305</td><td class="p-2">333,548</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
+            <h2 class="text-2xl font-bold text-navy">Valoración por Múltiplos Comparables</h2>
+            <div class="mt-4 space-y-3 text-sm">
+              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>EBITDA 2026E*</span><span class="font-semibold">46,364</span></div>
+              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Múltiplo EV/EBITDA sector*</span><span class="font-semibold">8.4x</span></div>
+              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Enterprise Value por comparables</span><span class="font-semibold">389,458</span></div>
+              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Deuda financiera*</span><span class="font-semibold">72,320</span></div>
+              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Caja y equivalentes*</span><span class="font-semibold">24,365</span></div>
+              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Valor patrimonial implícito</span><span class="font-semibold">341,503</span></div>
+              <div class="flex justify-between p-3 bg-gold/20 rounded-lg border border-gold/40"><span class="font-semibold">Precio objetivo (blend DCF/Comp)*</span><span class="font-bold text-navy">US$ 435 por acción</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
+          <h2 class="text-2xl font-bold text-navy">Dashboards Visuales</h2>
+          <p class="mt-2 text-sm text-slate-500">Se reforzó la estabilidad de renderizado de gráficas con tamaños fijos de lienzo y fallback visual en caso de bloqueo del CDN.</p>
+          <div class="mt-6 grid lg:grid-cols-2 gap-6">
+            <div class="bg-slate-50 rounded-xl p-4 border border-slate-200">
+              <h3 class="font-semibold mb-3">Proyección de Ingresos vs EBITDA (2026E-2030E)</h3>
+              <div class="h-80">
+                <canvas id="revEbitdaChart"></canvas>
+              </div>
+              <p id="revEbitdaFallback" class="hidden mt-3 text-xs text-red-700 bg-red-50 border border-red-200 rounded p-2"></p>
+            </div>
+            <div class="bg-slate-50 rounded-xl p-4 border border-slate-200">
+              <h3 class="font-semibold mb-3">Puente EV a Equity Value (USD mm)</h3>
+              <div class="h-80">
+                <canvas id="bridgeChart"></canvas>
+              </div>
+              <p id="bridgeFallback" class="hidden mt-3 text-xs text-red-700 bg-red-50 border border-red-200 rounded p-2"></p>
+            </div>
+          </div>
+          <div class="mt-6 bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 class="font-semibold mb-3">Distribución estimada de costos operativos*</h3>
+            <div class="h-80 max-w-xl mx-auto">
+              <canvas id="costChart"></canvas>
+            </div>
+            <p id="costFallback" class="hidden mt-3 text-xs text-red-700 bg-red-50 border border-red-200 rounded p-2"></p>
+          </div>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
+          <h2 class="text-2xl font-bold text-navy">Riesgos Clave y Mitigantes</h2>
+          <div class="mt-4 grid md:grid-cols-2 gap-4 text-sm">
+            <div class="p-4 rounded-xl border border-red-200 bg-red-50"><p class="font-semibold">Riesgo regulatorio en salud (EE. UU.)</p><p class="text-slate-600 mt-1">Potencial presión en tarifas y márgenes.</p></div>
+            <div class="p-4 rounded-xl border border-green-200 bg-green-50"><p class="font-semibold">Mitigante</p><p class="text-slate-600 mt-1">Escala nacional, diversificación de productos y capacidad de pricing selectivo.</p></div>
+            <div class="p-4 rounded-xl border border-red-200 bg-red-50"><p class="font-semibold">Siniestralidad superior a lo esperado</p><p class="text-slate-600 mt-1">Desviación en costos médicos afectaría cash flow.</p></div>
+            <div class="p-4 rounded-xl border border-green-200 bg-green-50"><p class="font-semibold">Mitigante</p><p class="text-slate-600 mt-1">Modelo analítico avanzado y control de utilización en planes administrados.</p></div>
+          </div>
+        </section>
+
+        <section class="bg-navy text-white rounded-2xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold">Recomendación Final</h2>
+          <p class="mt-3 text-slate-200 leading-relaxed">Recomendación: <span class="font-bold text-green-300">BUY</span>. El valor razonable por acción estimado (US$ 435) implica potencial alcista frente a niveles recientes, con perfil riesgo-retorno favorable para horizonte de mediano plazo.</p>
+          <p class="mt-3 text-sm text-slate-300">*Supuestos principales: margen EBITDA 2026E-2030E entre 9.6%-10.0%, WACC 8.2%, crecimiento terminal 2.5%, CAPEX en rango 0.8%-0.9% de ventas y múltiplo EV/EBITDA de 8.4x.</p>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const axisCurrency = (value) => '$' + Number(value).toLocaleString('es-ES');
+        const fallbackMessage = 'No se pudo cargar Chart.js desde CDN. Verifica conexión o política CSP para visualizar las gráficas.';
+
+        const setFallback = (fallbackId) => {
+          const target = document.getElementById(fallbackId);
+          if (!target) return;
+          target.textContent = fallbackMessage;
+          target.classList.remove('hidden');
+        };
+
+        if (typeof window.Chart === 'undefined') {
+          setFallback('revEbitdaFallback');
+          setFallback('bridgeFallback');
+          setFallback('costFallback');
+          return;
+        }
+
+        new Chart(document.getElementById('revEbitdaChart'), {
+          type: 'bar',
+          data: {
+            labels: ['2026E', '2027E', '2028E', '2029E', '2030E'],
+            datasets: [
+              {
+                label: 'Ingresos',
+                data: [483377, 522881, 561776, 581438, 593067],
+                backgroundColor: 'rgba(11,31,58,0.88)',
+                borderRadius: 8,
+                barThickness: 26
+              },
+              {
+                label: 'EBITDA',
+                data: [46364, 50720, 54676, 57562, 59307],
+                backgroundColor: 'rgba(22,163,74,0.88)',
+                borderRadius: 8,
+                barThickness: 26
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: { duration: 1200, easing: 'easeOutQuart' },
+            plugins: {
+              legend: { position: 'bottom' },
+              tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ${axisCurrency(ctx.parsed.y)} mm` } }
+            },
+            scales: {
+              y: { ticks: { callback: (val) => axisCurrency(val) }, grid: { color: 'rgba(148,163,184,0.2)' } },
+              x: { grid: { display: false } }
+            }
+          }
+        });
+
+        const bridgeLabels = ['EV (DCF)', 'Deuda Neta', 'Ajustes', 'Equity Value'];
+        const baseData = [0, 295157, 295157, 0];
+        const stepData = [367477, -47955, 24365, 343567];
+
+        new Chart(document.getElementById('bridgeChart'), {
+          type: 'bar',
+          data: {
+            labels: bridgeLabels,
+            datasets: [
+              {
+                label: 'Base (oculta)',
+                data: baseData,
+                backgroundColor: 'rgba(0,0,0,0)',
+                stack: 'waterfall',
+                borderWidth: 0
+              },
+              {
+                label: 'Variación / Total',
+                data: stepData,
+                stack: 'waterfall',
+                borderRadius: 8,
+                backgroundColor: ['#0B1F3A', '#DC2626', '#16A34A', '#C9A227']
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: { duration: 1300, easing: 'easeOutBack' },
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: (ctx) => `${ctx.datasetIndex === 1 ? ctx.label : 'Base'}: ${axisCurrency(ctx.parsed.y)} mm`
+                }
+              }
+            },
+            scales: {
+              y: {
+                ticks: { callback: (val) => axisCurrency(val) },
+                grid: { color: 'rgba(148,163,184,0.2)' }
+              },
+              x: { stacked: true, grid: { display: false } }
+            }
+          }
+        });
+
+        new Chart(document.getElementById('costChart'), {
+          type: 'pie',
+          data: {
+            labels: ['Coste médico y siniestros', 'SG&A', 'Tecnología y datos', 'Otros'],
+            datasets: [
+              {
+                data: [73, 15, 7, 5],
+                backgroundColor: ['#0B1F3A', '#334155', '#16A34A', '#C9A227'],
+                borderColor: '#F8FAFC',
+                borderWidth: 2,
+                hoverOffset: 10
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: { animateRotate: true, duration: 1400 },
+            plugins: {
+              tooltip: { callbacks: { label: (ctx) => `${ctx.label}: ${ctx.parsed}%` } },
+              legend: { position: 'bottom' }
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
