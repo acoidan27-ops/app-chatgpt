@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UnitedHealth Group (UNH) | Valoración Integral</title>
+    <title>Meta Platforms (NASDAQ: META) | Informe de Valoración Profesional</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              navy: '#0B1F3A',
-              slate: '#1E293B',
-              accent: '#16A34A',
-              gold: '#C9A227'
+              ink: '#0f172a',
+              slateSoft: '#f8fafc',
+              accent: '#2563eb',
+              success: '#059669',
+              warning: '#d97706'
             }
           }
         }
@@ -21,155 +22,127 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
-  <body class="bg-slate-100 text-slate-800">
-    <div class="min-h-screen">
-      <header class="bg-gradient-to-r from-navy via-slate-900 to-navy text-white shadow-xl">
-        <div class="max-w-7xl mx-auto px-6 py-10">
-          <p class="uppercase tracking-[0.25em] text-xs text-slate-300">Informe de Valoración Institucional</p>
-          <div class="mt-4 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
-            <div>
-              <h1 class="text-3xl lg:text-5xl font-bold">UnitedHealth Group (NYSE: UNH)</h1>
-              <p class="mt-2 text-slate-300">Sector: Salud · Servicios sanitarios y gestión de beneficios</p>
-            </div>
-            <div class="bg-white/10 rounded-xl px-5 py-3 border border-white/20">
-              <p class="text-sm text-slate-200">Fecha del análisis</p>
-              <p class="font-semibold">2026-02-23</p>
-            </div>
+  <body class="bg-slateSoft text-slate-800 antialiased">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+      <header class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+        <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Informe de valoración profesional</p>
+        <div class="mt-3 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-3">
+          <div>
+            <h1 class="text-3xl lg:text-4xl font-bold text-ink">Meta Platforms Inc (NASDAQ: META)</h1>
+            <p class="mt-2 text-slate-600">Fecha: 30 de marzo de 2026 · Sector: Servicios de Comunicación · País: Estados Unidos</p>
+          </div>
+          <div class="bg-slate-50 border border-slate-200 rounded-xl px-4 py-3">
+            <p class="text-sm text-slate-500">Precio actual</p>
+            <p class="text-2xl font-semibold text-ink">€468,50</p>
           </div>
         </div>
       </header>
 
-      <main class="max-w-7xl mx-auto px-6 py-8 space-y-8">
-        <section class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
-          <h2 class="text-2xl font-bold text-navy">Resumen Ejecutivo (Investment Thesis)</h2>
-          <ul class="mt-4 list-disc list-inside space-y-2 text-slate-700">
-            <li>Escala y resiliencia operativa respaldadas por diversificación de líneas de negocio, con trayectoria sostenida de expansión en ingresos y EBITDA.</li>
-            <li>La valoración por DCF converge con múltiplos de comparables, sugiriendo potencial de revalorización moderado bajo supuestos conservadores de crecimiento y margen.</li>
-            <li>Perfil financiero sólido (alto flujo de caja operativo y capacidad de desapalancamiento), mitigando el riesgo de ejecución y de volatilidad de mercado.</li>
-          </ul>
-        </section>
+      <section class="grid lg:grid-cols-4 gap-4">
+        <article class="bg-white border border-slate-200 rounded-xl p-4">
+          <p class="text-sm text-slate-500">Fair Value promedio</p>
+          <p class="text-2xl font-bold text-ink">€514,12</p>
+          <p class="text-sm text-success mt-1">+10,0% potencial</p>
+        </article>
+        <article class="bg-white border border-slate-200 rounded-xl p-4">
+          <p class="text-sm text-slate-500">Objetivo consenso (60 analistas)</p>
+          <p class="text-2xl font-bold text-ink">€752,32</p>
+          <p class="text-sm text-success mt-1">+60,6% a 12 meses</p>
+        </article>
+        <article class="bg-white border border-slate-200 rounded-xl p-4">
+          <p class="text-sm text-slate-500">Caída desde máximo 52 semanas</p>
+          <p class="text-2xl font-bold text-ink">-32,7%</p>
+          <p class="text-sm text-warning mt-1">Desde €695,13</p>
+        </article>
+        <article class="bg-white border border-slate-200 rounded-xl p-4">
+          <p class="text-sm text-slate-500">Riesgo InvestingPro</p>
+          <p class="text-2xl font-bold text-ink">BAJO</p>
+          <p class="text-sm text-slate-500 mt-1">Resultados: 29 abril 2026</p>
+        </article>
+      </section>
 
-        <section class="bg-white rounded-2xl shadow-md p-6 border border-slate-200 overflow-x-auto">
-          <h2 class="text-2xl font-bold text-navy">Análisis Financiero Histórico y Proyectado (USD mm)</h2>
-          <p class="mt-2 text-sm text-slate-500">*Datos históricos y de consenso estimados a partir de capturas proporcionadas; supuestos marcados con asterisco.</p>
+      <section class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+        <h2 class="text-2xl font-semibold text-ink">Resumen ejecutivo</h2>
+        <p class="mt-3 text-slate-700 leading-relaxed">
+          Meta mantiene una franquicia de altísima calidad operativa (margen bruto ~82%, ROE ~30%) con crecimiento estructural de ingresos y generación récord de caja operativa.
+          La presión reciente en precio y FCL responde principalmente al ciclo de inversión en IA (capex), no a deterioro del negocio principal de publicidad.
+        </p>
+      </section>
+
+      <section class="grid lg:grid-cols-2 gap-4">
+        <article class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-ink">Evolución ingresos vs beneficio neto (2016–2025)</h3>
+          <div class="mt-4 h-80"><canvas id="incomeChart"></canvas></div>
+        </article>
+        <article class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-ink">Flujo de caja operativo, capex y FCL</h3>
+          <div class="mt-4 h-80"><canvas id="cashflowChart"></canvas></div>
+        </article>
+      </section>
+
+      <section class="grid lg:grid-cols-2 gap-4">
+        <article class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm overflow-x-auto">
+          <h3 class="text-xl font-semibold text-ink">Rentabilidad y creación de valor (2025)</h3>
           <table class="mt-4 min-w-full text-sm">
-            <thead>
-              <tr class="bg-slate-100 text-slate-700">
-                <th class="text-left p-3">Métrica</th>
-                <th class="p-3">2024A</th>
-                <th class="p-3">2025E</th>
-                <th class="p-3">2026E*</th>
-                <th class="p-3">2027E*</th>
-                <th class="p-3">2028E*</th>
-                <th class="p-3">2029E*</th>
-                <th class="p-3">2030E*</th>
-              </tr>
-            </thead>
             <tbody>
-              <tr class="border-b"><td class="p-3 font-medium">Ingresos</td><td class="p-3 text-center">400,278</td><td class="p-3 text-center">447,567</td><td class="p-3 text-center">483,377</td><td class="p-3 text-center">522,881</td><td class="p-3 text-center">561,776</td><td class="p-3 text-center">581,438</td><td class="p-3 text-center">593,067</td></tr>
-              <tr class="border-b bg-slate-50"><td class="p-3 font-medium">EBITDA*</td><td class="p-3 text-center">37,627</td><td class="p-3 text-center">42,519</td><td class="p-3 text-center">46,364</td><td class="p-3 text-center">50,720</td><td class="p-3 text-center">54,676</td><td class="p-3 text-center">57,562</td><td class="p-3 text-center">59,307</td></tr>
-              <tr class="border-b"><td class="p-3 font-medium">Margen EBITDA*</td><td class="p-3 text-center">9.4%</td><td class="p-3 text-center">9.5%</td><td class="p-3 text-center">9.6%</td><td class="p-3 text-center">9.7%</td><td class="p-3 text-center">9.7%</td><td class="p-3 text-center">9.9%</td><td class="p-3 text-center">10.0%</td></tr>
-              <tr class="border-b bg-slate-50"><td class="p-3 font-medium">Capex*</td><td class="p-3 text-center">3,499</td><td class="p-3 text-center">3,622</td><td class="p-3 text-center">3,950</td><td class="p-3 text-center">4,180</td><td class="p-3 text-center">4,440</td><td class="p-3 text-center">4,610</td><td class="p-3 text-center">4,750</td></tr>
-              <tr><td class="p-3 font-medium">FCFF*</td><td class="p-3 text-center">20,705</td><td class="p-3 text-center">16,075</td><td class="p-3 text-center">19,101</td><td class="p-3 text-center">20,195</td><td class="p-3 text-center">21,224</td><td class="p-3 text-center">22,123</td><td class="p-3 text-center">22,788</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">Margen Bruto</td><td class="py-2 font-semibold text-right">82,0%</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">Margen Operativo (EBIT)</td><td class="py-2 font-semibold text-right">41,4%</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">Margen EBITDA</td><td class="py-2 font-semibold text-right">50,7%</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">ROE</td><td class="py-2 font-semibold text-right">30,2%</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">ROIC</td><td class="py-2 font-semibold text-right">25,3%</td></tr>
+              <tr><td class="py-2 text-slate-500">Spread ROIC - WACC</td><td class="py-2 font-semibold text-right text-success">+16,0 pts</td></tr>
             </tbody>
           </table>
-        </section>
+        </article>
 
-        <section class="grid lg:grid-cols-2 gap-6">
-          <div class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
-            <h2 class="text-2xl font-bold text-navy">Valoración DCF y Sensibilidad</h2>
-            <div class="mt-4 grid grid-cols-2 gap-3 text-sm">
-              <div class="bg-slate-50 p-3 rounded-lg"><p class="text-slate-500">WACC*</p><p class="text-xl font-bold text-navy">8.2%</p></div>
-              <div class="bg-slate-50 p-3 rounded-lg"><p class="text-slate-500">g terminal*</p><p class="text-xl font-bold text-navy">2.5%</p></div>
-              <div class="bg-slate-50 p-3 rounded-lg"><p class="text-slate-500">PV FCFF (26E-30E)</p><p class="text-xl font-bold text-navy">82,651</p></div>
-              <div class="bg-slate-50 p-3 rounded-lg"><p class="text-slate-500">PV Valor Terminal</p><p class="text-xl font-bold text-navy">284,826</p></div>
-            </div>
-            <div class="mt-4 p-4 bg-navy text-white rounded-xl">
-              <p class="text-sm text-slate-300">Enterprise Value DCF</p>
-              <p class="text-3xl font-extrabold">367,477 USD mm</p>
-            </div>
-            <div class="mt-4 overflow-x-auto">
-              <table class="min-w-full text-xs text-center border border-slate-200">
-                <thead><tr class="bg-slate-100"><th class="p-2">WACC \ g</th><th class="p-2">2.0%</th><th class="p-2">2.5%</th><th class="p-2">3.0%</th></tr></thead>
-                <tbody>
-                  <tr><td class="p-2 font-semibold">7.7%</td><td class="p-2">409,214</td><td class="p-2">434,802</td><td class="p-2">464,103</td></tr>
-                  <tr class="bg-green-50"><td class="p-2 font-semibold">8.2%</td><td class="p-2">347,693</td><td class="p-2 font-bold text-accent">367,477</td><td class="p-2">389,736</td></tr>
-                  <tr><td class="p-2 font-semibold">8.7%</td><td class="p-2">300,811</td><td class="p-2">316,305</td><td class="p-2">333,548</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+        <article class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm overflow-x-auto">
+          <h3 class="text-xl font-semibold text-ink">Solvencia y estructura financiera (2025)</h3>
+          <table class="mt-4 min-w-full text-sm">
+            <tbody>
+              <tr class="border-b"><td class="py-2 text-slate-500">Caja + inversiones CP</td><td class="py-2 font-semibold text-right">€69.451 M</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">Deuda total</td><td class="py-2 font-semibold text-right">€72.421 M</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">Deuda total / EBITDA</td><td class="py-2 font-semibold text-right">0,8x</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">Deuda neta / EBITDA</td><td class="py-2 font-semibold text-right">0,0x</td></tr>
+              <tr class="border-b"><td class="py-2 text-slate-500">Current Ratio</td><td class="py-2 font-semibold text-right">2,6x</td></tr>
+              <tr><td class="py-2 text-slate-500">Altman Z-Score</td><td class="py-2 font-semibold text-right text-success">7,5</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
 
-          <div class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
-            <h2 class="text-2xl font-bold text-navy">Valoración por Múltiplos Comparables</h2>
-            <div class="mt-4 space-y-3 text-sm">
-              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>EBITDA 2026E*</span><span class="font-semibold">46,364</span></div>
-              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Múltiplo EV/EBITDA sector*</span><span class="font-semibold">8.4x</span></div>
-              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Enterprise Value por comparables</span><span class="font-semibold">389,458</span></div>
-              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Deuda financiera*</span><span class="font-semibold">72,320</span></div>
-              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Caja y equivalentes*</span><span class="font-semibold">24,365</span></div>
-              <div class="flex justify-between p-3 bg-slate-50 rounded-lg"><span>Valor patrimonial implícito</span><span class="font-semibold">341,503</span></div>
-              <div class="flex justify-between p-3 bg-gold/20 rounded-lg border border-gold/40"><span class="font-semibold">Precio objetivo (blend DCF/Comp)*</span><span class="font-bold text-navy">US$ 435 por acción</span></div>
-            </div>
-          </div>
-        </section>
+      <section class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+        <h3 class="text-xl font-semibold text-ink">Valoración por múltiplos</h3>
+        <div class="mt-4 grid md:grid-cols-3 gap-3 text-sm">
+          <div class="rounded-lg border border-slate-200 p-3 bg-slate-50"><p class="text-slate-500">PER LTM</p><p class="text-lg font-semibold">22,5x</p><p class="text-success">~20% descuento vs sector</p></div>
+          <div class="rounded-lg border border-slate-200 p-3 bg-slate-50"><p class="text-slate-500">PER forward</p><p class="text-lg font-semibold">17,6x</p><p class="text-slate-600">Atractivo vs crecimiento esperado</p></div>
+          <div class="rounded-lg border border-slate-200 p-3 bg-slate-50"><p class="text-slate-500">PEG 5Y</p><p class="text-lg font-semibold">1,06x</p><p class="text-slate-600">Cercano a valoración justa</p></div>
+        </div>
+      </section>
 
-        <section class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
-          <h2 class="text-2xl font-bold text-navy">Dashboards Visuales</h2>
-          <div class="mt-6 grid lg:grid-cols-2 gap-6">
-            <div class="bg-slate-50 rounded-xl p-4 border border-slate-200">
-              <h3 class="font-semibold mb-3">Proyección de Ingresos vs EBITDA (2026E-2030E)</h3>
-              <canvas id="revEbitdaChart" height="170"></canvas>
-            </div>
-            <div class="bg-slate-50 rounded-xl p-4 border border-slate-200">
-              <h3 class="font-semibold mb-3">Puente EV a Equity Value (USD mm)</h3>
-              <canvas id="bridgeChart" height="170"></canvas>
-            </div>
-          </div>
-          <div class="mt-6 bg-slate-50 rounded-xl p-4 border border-slate-200">
-            <h3 class="font-semibold mb-3">Distribución estimada de costos operativos*</h3>
-            <div class="max-w-md mx-auto">
-              <canvas id="costChart" height="170"></canvas>
-            </div>
-          </div>
-        </section>
-
-        <section class="bg-white rounded-2xl shadow-md p-6 border border-slate-200">
-          <h2 class="text-2xl font-bold text-navy">Riesgos Clave y Mitigantes</h2>
-          <div class="mt-4 grid md:grid-cols-2 gap-4 text-sm">
-            <div class="p-4 rounded-xl border border-red-200 bg-red-50"><p class="font-semibold">Riesgo regulatorio en salud (EE. UU.)</p><p class="text-slate-600 mt-1">Potencial presión en tarifas y márgenes.</p></div>
-            <div class="p-4 rounded-xl border border-green-200 bg-green-50"><p class="font-semibold">Mitigante</p><p class="text-slate-600 mt-1">Escala nacional, diversificación de productos y capacidad de pricing selectivo.</p></div>
-            <div class="p-4 rounded-xl border border-red-200 bg-red-50"><p class="font-semibold">Siniestralidad superior a lo esperado</p><p class="text-slate-600 mt-1">Desviación en costos médicos afectaría cash flow.</p></div>
-            <div class="p-4 rounded-xl border border-green-200 bg-green-50"><p class="font-semibold">Mitigante</p><p class="text-slate-600 mt-1">Modelo analítico avanzado y control de utilización en planes administrados.</p></div>
-          </div>
-        </section>
-
-        <section class="bg-navy text-white rounded-2xl shadow-lg p-6 mb-8">
-          <h2 class="text-2xl font-bold">Recomendación Final</h2>
-          <p class="mt-3 text-slate-200 leading-relaxed">Recomendación: <span class="font-bold text-green-300">BUY</span>. El valor razonable por acción estimado (US$ 435) implica potencial alcista frente a niveles recientes, con perfil riesgo-retorno favorable para horizonte de mediano plazo.</p>
-          <p class="mt-3 text-sm text-slate-300">*Supuestos principales: margen EBITDA 2026E-2030E entre 9.6%-10.0%, WACC 8.2%, crecimiento terminal 2.5%, CAPEX en rango 0.8%-0.9% de ventas y múltiplo EV/EBITDA de 8.4x.</p>
-        </section>
-      </main>
+      <footer class="pb-8 text-xs text-slate-500">
+        Fuente base de datos: InvestingPro (según datos aportados por el solicitante). Documento informativo, no recomendación personalizada de inversión.
+      </footer>
     </div>
 
     <script>
-      const axisCurrency = (value) => '$' + value.toLocaleString('es-ES');
+      const fmt = (v) => new Intl.NumberFormat('es-ES').format(v);
+      const years = ['2016', '2019', '2021', '2022', '2023', '2024', '2025'];
 
-      new Chart(document.getElementById('revEbitdaChart'), {
+      new Chart(document.getElementById('incomeChart'), {
         type: 'bar',
         data: {
-          labels: ['2026E', '2027E', '2028E', '2029E', '2030E'],
+          labels: years,
           datasets: [
             {
-              label: 'Ingresos',
-              data: [483377, 522881, 561776, 581438, 593067],
-              backgroundColor: 'rgba(11,31,58,0.85)',
+              label: 'Ingresos (M€)',
+              data: [26259, 63026, 103612, 108901, 122194, 158793, 171062],
+              backgroundColor: 'rgba(37, 99, 235, 0.80)',
               borderRadius: 6
             },
             {
-              label: 'EBITDA',
-              data: [46364, 50720, 54676, 57562, 59307],
-              backgroundColor: 'rgba(22,163,74,0.85)',
+              label: 'Beneficio neto (M€)',
+              data: [9707, 16479, 34591, 21667, 35415, 60196, 51462],
+              backgroundColor: 'rgba(5, 150, 105, 0.75)',
               borderRadius: 6
             }
           ]
@@ -177,69 +150,62 @@
         options: {
           responsive: true,
           maintainAspectRatio: false,
-          animation: { duration: 1200, easing: 'easeOutQuart' },
           plugins: {
-            tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ${axisCurrency(ctx.parsed.y)} mm` } }
-          },
-          scales: {
-            y: { ticks: { callback: (val) => '$' + Number(val).toLocaleString('es-ES') }, grid: { color: 'rgba(148,163,184,0.2)' } },
-            x: { grid: { display: false } }
-          }
-        }
-      });
-
-      new Chart(document.getElementById('bridgeChart'), {
-        type: 'bar',
-        data: {
-          labels: ['EV (DCF)', 'Deuda', 'Caja', 'Equity Value'],
-          datasets: [
-            {
-              data: [367477, -72320, 24365, 319522],
-              backgroundColor: ['#0B1F3A', '#DC2626', '#16A34A', '#C9A227'],
-              borderRadius: 6
-            }
-          ]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          animation: { duration: 1300, easing: 'easeOutBack' },
-          plugins: {
-            legend: { display: false },
             tooltip: {
               callbacks: {
-                label: (ctx) => `${ctx.label}: ${axisCurrency(ctx.parsed.y)} mm`
+                label: (ctx) => `${ctx.dataset.label}: ${fmt(ctx.parsed.y)} M€`
               }
             }
           },
           scales: {
-            y: {
-              ticks: { callback: (val) => '$' + Number(val).toLocaleString('es-ES') },
-              grid: { color: 'rgba(148,163,184,0.2)' }
-            },
+            y: { grid: { color: 'rgba(148,163,184,0.2)' }, ticks: { callback: (v) => fmt(v) } },
             x: { grid: { display: false } }
           }
         }
       });
 
-      new Chart(document.getElementById('costChart'), {
-        type: 'pie',
+      new Chart(document.getElementById('cashflowChart'), {
         data: {
-          labels: ['Coste médico y siniestros', 'SG&A', 'Tecnología y datos', 'Otros'],
+          labels: ['2021', '2022', '2023', '2024', '2025'],
           datasets: [
             {
-              data: [73, 15, 7, 5],
-              backgroundColor: ['#0B1F3A', '#334155', '#16A34A', '#C9A227'],
-              hoverOffset: 8
+              type: 'bar',
+              label: 'Flujo Operativo (M€)',
+              data: [50680, 47139, 64414, 88159, 98569],
+              backgroundColor: 'rgba(15, 23, 42, 0.82)',
+              borderRadius: 6
+            },
+            {
+              type: 'bar',
+              label: 'Capex (M€)',
+              data: [-16421, -29125, -24497, -35963, -59321],
+              backgroundColor: 'rgba(217, 119, 6, 0.75)',
+              borderRadius: 6
+            },
+            {
+              type: 'line',
+              label: 'FCL (M€)',
+              data: [34259, 18014, 39917, 52196, 39248],
+              borderColor: '#2563eb',
+              backgroundColor: '#2563eb',
+              tension: 0.35,
+              pointRadius: 3
             }
           ]
         },
         options: {
           responsive: true,
-          animation: { animateRotate: true, duration: 1400 },
+          maintainAspectRatio: false,
           plugins: {
-            tooltip: { callbacks: { label: (ctx) => `${ctx.label}: ${ctx.parsed}%` } },
-            legend: { position: 'bottom' }
+            tooltip: {
+              callbacks: {
+                label: (ctx) => `${ctx.dataset.label}: ${fmt(ctx.parsed.y)} M€`
+              }
+            }
+          },
+          scales: {
+            y: { grid: { color: 'rgba(148,163,184,0.2)' }, ticks: { callback: (v) => fmt(v) } },
+            x: { grid: { display: false } }
           }
         }
       });
